@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+	margin: 0px;
+	font-family: Inter;
+}
+
+.img {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img {
+	padding: 5px;
+}
+
+.button {
+	display: flex;
+	height: 40px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.bus {
+	flex-grow: 1;
+}
+
+.destroy_car {
+	flex-grow: 1;
+}
+
+.old_car {
+	flex-grow: 10;
+}
+
+.huge_car {
+	flex-grow: 1;
+}
+
+#u {
+	color: white;
+	margin: 5px;
+	flex-grow: 1;
+	background-color: #4e6bff;
+	border: 0px solid;
+	border-radius: 5px;
+}
+
+#d {
+	color: white;
+	margin: 5px;
+	flex-grow: 2;
+	background-color: #ff4e4e;
+	border: 0px solid;
+	border-radius: 5px;
+}
+
+#t {
+	color: white;
+	margin: 5px;
+	flex-grow: 1;
+	background-color: #4e6bff;
+	border: 0px solid;
+	border-radius: 5px;
+}
+
+.load {
+	color: white;
+	height: 40px;
+	margin-left: 45%;
+	background-color: #4e6bff;
+	border: 0px solid;
+	border-radius: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 125px;
+}
+
+.photo {
+	padding: 15px;
+	color: black;
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.line {
+	width: 90%;
+	height: 0px;
+	border: 1px solid black;
+	margin: 3px;
+}
+
+.picturs {
+	text-align: center;
+}
+
+.items {
+	text-align: center;
+}
